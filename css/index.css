@@ -36,9 +36,11 @@ body {
 }
 
 .upper-intro-pic{
-  height: 70%;
+  height: 100%;
   width: 100%;
   background-image: url("../imgs/JLK_alcatraz.jpg"); 
+  background-size: 100%;
+  background-repeat: no-repeat;
 
 }
 
@@ -143,10 +145,8 @@ font-family: 'Roboto Condensed', sans-serif;  color: #fff; /* IE8 proofing */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
-    top: 0;
   }
-  .mastfoot {
+    .mastfoot {
     position: fixed;
     bottom: 0;
   }
@@ -163,8 +163,6 @@ font-family: 'Roboto Condensed', sans-serif;  color: #fff; /* IE8 proofing */
 }
 
 @media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
   .cover-container {
     width: 700px;
   }
